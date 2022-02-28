@@ -7,3 +7,8 @@ export class CreateTaskDto {
   @IsNotEmpty()
   description: string;
 }
+
+export class UpdateTaskTitleDto {
+  @IsNotEmpty()
+  title: string;
+}
